@@ -3,13 +3,13 @@ h1{
     color: red;
 }
 
-html{
+/*html{
     font-size: 32px;
-}
+}*/
 
-p{
+/*p{
     font-size: 1.25rem;
-}
+}*/
 
 button{
     font-size: 1em;
@@ -33,4 +33,20 @@ div p {
 .containerImg img {
   width: 100%;
   height: auto; 
+}
+
+.FlexContainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.flexItem{
+    width: 20%;
+    max-width: 800px;
+    min-width: 400px;
+    border: 2px solid red;
+}
+
+.flexItem img{
+    width: 100%;
 }
